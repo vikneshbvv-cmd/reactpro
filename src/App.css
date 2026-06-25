@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e9058a;
+  margin: 0;
+}
+
+.navbar {
+  background: #f3118d;
+  color: rgb(243, 12, 193);
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.search,
+select {
+  padding: 10px;
+  margin: 10px;
+}
+
+.jobs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.job-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.job-card button {
+  margin-right: 10px;
+  padding: 8px 12px;
+}
+
+.details,
+.bookmark-section {
+  background: rgb(238, 7, 207);
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}.job-card{
+background:white;
+padding:20px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.4s;
+animation:fadeIn .8s ease;
+}.job-card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 40px rgb(245, 4, 137);
+}button{
+padding:10px 18px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+transition:.3s;
+}select{
+padding:12px;
+border-radius:25px;
+transition:.3s;
+}select:hover{
+transform:translateY(-2px);
+}.search{
+padding:14px;
+border-radius:40px;
+border:none;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+transition:.4s;
+}.search:focus{
+transform:scale(1.03);
+box-shadow:0 0 20px #ee17a6;
+}.nav-links a:hover{
+color:#407a48;
+transition:.3s;
+}.navbar{
+position:sticky;
+top:0;
+background:linear-gradient(90deg,#fc039c,#e4088f);
+color:white;
+padding:18px;
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+z-index:100;
+}body{
+background:#f5f7fb;
+font-family:Poppins,sans-serif;
+}select{
+padding:12px;
+border-radius:25px;
+transition:.3s;
+}select:hover{
+transform:translateY(-2px);
+}
+body{
+
+background:
+
+radial-gradient(circle at 20% 20%,#4f46e5 0%,transparent 30%),
+
+radial-gradient(circle at 80% 20%,#ee06bc 0%,transparent 30%),
+
+radial-gradient(circle at 50% 80%,#06b6d4 0%,transparent 30%),
+
+#0f172a;
+
+animation:moveBG 15s infinite alternate;
+
+}
+
+@keyframes moveBG{
+
+from{
+
+background-position:0 0,0 0,0 0;
+
+}
+
+to{
+
+background-position:150px 120px,-150px 80px,100px -120px;
+
+}
+
+}
